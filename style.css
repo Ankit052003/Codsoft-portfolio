@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    color: #020000;
+    cursor: default;
+}
+
+.logo span {
+    color: #7d2ae8;
+}
+.navigation {
+    margin-left: -300px;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: #020202;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    color: #7d2ae8;
+}
+
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #7d2ae8;
+    border-radius: 50px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transform: .3s;
+}
+
+.btn-talk:hover {
+    color: #7d2ae8;
+    background: transparent;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("back_g.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+.content {
+    max-width: 500px;
+    color: #070110;
+}
+
+.content h2{
+    font-size: 3em;
+}
+
+.content h2 span{
+    color: #7d2ae8;
+}
+
+.content h3{
+     font-size: 2em;
+}
+ 
+.content p{
+    padding: 10px 0 40px 0;
+    color: rgb(8, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.btn-group a:hover:nth-child(1) {
+    color: #f9f9f9;
+    background: rgb(197, 47, 47);
+}
+
+.btn-group a:nth-child(2){
+    color: #fff;
+    background-color: #675283;
+    border-radius: 50px;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+
+.btn-group a:hover:nth-child(2) {
+    color: #fff;
+    background-color: #7d2ae8;
+}
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+
+}
+
+.social-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #866ba9;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    border: 1px solid #fff;
+    outline: 2px solid #7d2ae8;
+    transition: -3s;
+}
+
+.social-icons a i{
+    color: #000000;
+    line-height: 35px;
+}
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
